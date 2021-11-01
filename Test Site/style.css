@@ -3,7 +3,6 @@
 header {
 		text-align: center;
 		color: #89c2d9ff;
-		/*	background-color: #012a4aff;*/		
 		font-family: 'Roboto', sans-serif;
 		padding: 110px 10px 0px 10px;
 		line-height: 10px;
@@ -27,10 +26,9 @@ h2{
 }
 
 .image-legend{
-	font-size: 6px;
-	text-align: right;
+	text-align: left;
 	padding-top: 70px;
-	color: black;
+	font-size: 6px;
 }
 
 
@@ -57,99 +55,39 @@ h2{
 	padding-bottom: 20px;
 	max-width: 1000px;
 	text-align: center;
-	text-anchor: end;
 }
 
-.more-2{
+.double-arrow{
 	font-size: 30px;
 }
-
-/* image 2 - 1st way*/
-
-/*.image-legend2{
-	font-size: 6px;
-	text-align: left;
-	color: darkgrey;
-	position: absolute;
-  	bottom: 1px;
-  	left: 50%;
-  transform: translate(-50%, -50%);
- 	right: 16px;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-/*.pic2{
-	height: 400px;
-	width: auto;
-}*/
-
 
 
 /* image work experiences*/
 
 .card-title{
 	text-align: center;
-/*	padding-top: 100px;
-*/	color: #89c2d9ff;
+	color: #89c2d9ff;
 	text-shadow: 2px 2px 2px white ;
 	font-size: 36px;
 	font-family: 'Roboto', sans-serif;
+	padding: 0;
 }
-
 
 .card-text-2{
-	bottom: 2px;
 	font-size: 6px;
 	margin: auto;
-	text-align: center;
+	margin-left: 5px;
+	}
+
+/* removing padding from columns - NOT WORKING */
+
+.row{
+	padding-right: 0; padding-left: 0;
 }
 
-
-/* "button" work experiences */
-
-/*.work{
-	color: whitesmoke;
-	background-color: #89c2d9ff;
-	font-size: 20px;
-	width: 400px;
-	align-items: center;
-	padding: 10px 20px;
-	margin: 10px auto;
-	border-radius: 24px;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	/*text-shadow: 2px 2px white;*/
-/*	padding-top: 20px;
-	padding-bottom: 20px;
-}*/
-
-/*.work2{
-	color: whitesmoke;
-	background-color: #89c2d9ff;
-	font-size: 20px;
-	width: 400px;
-	align-items: center;
-	padding: 10px 20px;
-	margin: 10px auto;
-	border-radius: 24px;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	text-shadow: 2px 2px white;
-	padding-top: 20px;
-	padding-bottom: 20px;
+.col-6{
+	padding-right: 0; padding-left: 0;
 }
-*/
-
-/*.work-exp{
-	background-image: url("images/corinne-kutz.jpg");
-	background-size: cover;
-	background-position: center;
-padding: 200px auto;}*/
 
 
 /* work experiences text*/
@@ -165,7 +103,7 @@ padding: 200px auto;}*/
 	text-align: center;
 }
 
-.more-3{
+.explore{
 	font-family: 'Montserrat', sans-serif;
 	color: #89c2d9ff;
 	font-size: 15px;
@@ -180,27 +118,14 @@ padding: 200px auto;}*/
 
 /* informations when opening the work experiences */
 
-p{
-	font-size: 14px;
-	font-family: 'Montserrat', sans-serif;
-	padding-top: 10px ;
-	margin: 10px 35px 10px 35px;
-	max-width: 500px;
-	text-align: center;
-	min-height: 150px;
-}
-
 .click{
 	text-align: center;
 }
 
 .btn-group-vertical{
-	/*align-items: center;
-	padding: 10px 10px;
-	margin-left: 10%;
-    margin-right: 10%;*/
     max-width: 550px;
     margin-top: 5px;
+
 }
 
 .container2 {
@@ -208,57 +133,45 @@ p{
   text-align: center;
 }
 
+p{
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 10px ;
+	margin: 10px 35px 10px 35px;
+	max-width: 500px;
+	min-height: 150px;
+}
+
 /* interests */
 
-.card-title-int{
-	text-align: center;
-	padding-top: 10px;
-	color: #89c2d9ff;
-	text-shadow: 2px 2px 2px white ;
-	font-size: 36px;
-	font-family: 'Roboto', sans-serif;
-}
-
-
-.card-text-int{
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	font-size: 12px;
-}
-
-.card-text-int2{
-	bottom: 2px;
+.card-text-3{
 	font-size: 6px;
-	margin: 0;
-	text-align: center;
-	padding-top: 132px;
-}
+	margin-right: 5px;
+	text-align: right;
+	}
 
-/*
-.container3 {
-  position: relative;
-  text-align: center;
-  color: white;
-}*/
+.interests{
+	font-family: 'Montserrat', sans-serif;
+	margin: 60px auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	max-width: 1000px;
+	text-align: center;
+	text-anchor: end;
+	line-height: 40px;
+}
 
 
 /* footer */
 
 footer {
 	text-align: center;
-	padding: 20px;
+	padding: 5px;
 	margin-top: 20px;
-	
 	background-color: whitesmoke;
 	color: white; 
 }
 
-/*div{
-	max-width: 600px;*/
-/*	margin: 10px auto;
-	padding: 10px;
-}*/
 
 /* CSS HEX */
 --antique-brass: #cb997eff;

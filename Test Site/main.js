@@ -1,5 +1,3 @@
-// console.log("Hello")
-
 //1. resposta PM
 
 const PM = document.getElementById('IT-PM');
